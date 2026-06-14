@@ -1,6 +1,6 @@
 # Universal Streamlit EDA Dashboard
 
-A production-ready Streamlit application for automated exploratory data analysis on any uploaded CSV dataset, including an automatic healthcare appointment no-show mode.
+A production-ready Streamlit application for automated exploratory data analysis on any uploaded CSV dataset, including a MedInsight-style healthcare appointment no-show dashboard.
 
 ## Folder Structure
 
@@ -67,7 +67,8 @@ streamlit run app.py
 - Classification workflow with Logistic Regression, Decision Tree, and Random Forest.
 - Metrics include accuracy, precision, recall, F1 score, and confusion matrix.
 - Downloadable PDF report, CSV summary, and text insights.
-- Light and dark dashboard themes.
+- Light and dark dashboard themes with a polished healthcare analytics layout.
+- MedInsight-inspired sidebar, KPI cards, chart panels, quick actions, and AI insight panel.
 
 ## Healthcare Mode
 
@@ -96,4 +97,3 @@ The app follows a modular structure:
 - `utils/` contains reusable logic for profiling, plotting, statistics, machine learning, healthcare analysis, and reporting.
 
 This keeps the user interface separate from the analytical logic and makes the dashboard easier to test, maintain, and extend.
-"# health-eda" 
